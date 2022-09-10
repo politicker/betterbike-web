@@ -2,7 +2,11 @@ html, body {
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-main {
+* {
+	box-sizing: border-box;
+}
+
+.index-main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -40,7 +44,7 @@ main {
 		text-align: center;
 	}
 
-	main {
+	.index-main {
 		flex-direction: column;
 		padding: 2em;
 	}
@@ -53,4 +57,10 @@ main {
 		width: 100%;
 		max-height: inherit;
 	}
+}
+
+/* Privacy Policy */
+.privacy-main {
+	max-width: 640px;
+	margin: auto;
 }
